@@ -12,17 +12,17 @@ num=int(input('Digite un entero positivo para obtener su sucesion de ULAM: '))
 while num!='a':
     if num<=0:
         num=int(input('usted ha ingresado un numero incorrecto, por favor, ingrese otro numero: '))
-
     if num!=1:
-            if num%2==0:
-                num=num/2
-                print(num)
-            else:
-                num=num*3+1
-                print(num)
+        if num%2==0:
+            num=num/2
+            print(num)
+        else:
+            num=num*3+1
+            print(num)
     else:
+        print('esta ha sido la sucesión de ULAM')
         break
-     
+    
     
 
     
